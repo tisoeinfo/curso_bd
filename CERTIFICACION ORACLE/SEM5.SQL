@@ -43,9 +43,7 @@
    - NO se puede probar en Oracle Express, Oracle local,
      SQL Developer ni máquinas Windows comunes.
 
-   Para clase:
-   -----------
-   - Solo se explica el concepto general, no la ejecución real.
+   OBJETIVO:
    - El objetivo es entender cómo Oracle administra y depura 
      automáticamente los archivos de auditoría para evitar 
      problemas de almacenamiento y mantener la base estable.
