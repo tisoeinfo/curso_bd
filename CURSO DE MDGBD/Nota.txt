@@ -1,0 +1,4 @@
+-- Para cambiar tipos de datos
+-- ALTER TABLE turnos alter column nombre_turno VARCHAR(50);
+-- Agregar columnas
+-- ALTER TABLE turnos add  nombre_turno VARCHAR(50);
