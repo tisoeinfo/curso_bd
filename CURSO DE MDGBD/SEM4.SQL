@@ -101,7 +101,7 @@ SELECT id_mesero, nombre, ape_materno, ape_paterno from meseros;
 -- Mostrar los meseros cuando el nombre sea "Carlos"
 SELECT * from meseros  where nombre = 'Carlos';
 
--- ==================================================
+-- ==================================================–
 -- CLAUSULA SELECT CON ORDER BY"
 -- ==================================================
 
@@ -133,7 +133,7 @@ INNER JOIN MESEROS M ON M.ID_MESERO=R.ID_MESERO
 
 
 -- ==================================================
--- FUNCIONES  INTEGRADAS ()
+-- FUNCIONES  INTEGRADAS/PREDEFINIDAS ()
 -- ==================================================
 
 SELECT UPPER('pepe') AS 'MAYUSCULA';
