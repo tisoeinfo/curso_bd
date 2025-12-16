@@ -1,4 +1,4 @@
---  PRIMER EJEMPLO
+--  PRIMER EJEMPLO DE SUB CONSULTAS
 CREATE TABLE empleado (
     id_empleado      NUMBER PRIMARY KEY,
     nombre           VARCHAR2(30),
