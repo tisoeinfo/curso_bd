@@ -84,7 +84,7 @@ VALUES (3, 1, 3, 500);
 COMMIT;
 
 --cree una Vista para que me liste estos datos
-CREATE VIEW view_viaticos_lista AS
+CREATE OR REPLACE VIEW view_viaticos_lista AS
 SELECT 
     v.id_viatico,
     t.nombre AS trabajador,
@@ -102,7 +102,7 @@ JOIN conceptos c ON dv.id_concepto = c.id_concepto;
 SELECT * FROM view_viaticos_lista;
 
 --cree otra vista con funciones logicas
-CREATE VIEW view_viaticostotalxtrabajador AS
+CREATE OR REPLACE VIEW view_viaticostotalxtrabajador AS
 SELECT 
     t.id_trabajador,
     t.nombre AS trabajador,
