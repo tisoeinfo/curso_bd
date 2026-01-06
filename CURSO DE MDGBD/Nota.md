@@ -16,3 +16,13 @@
 # Comandos de apoyo
 - Para ver tablas: sp_help MESEROS;
 - Para ver procedimientos almacenados : sp_helptext 'SP_INSERTAR_MESEROS';
+
+# Comandos para aplicar Update
+update turnos set nombre_turno = 'Madrugada' where id_turno = 1
+
+# Comandos para aplicar Eliminar una Fila
+delete clientes where id_cliente = 11;
+
+# Comandos para mostrar una cierta Cant. Registros 
+select top 10* from clientes ORDER BY id_cliente; 
+
