@@ -29,9 +29,9 @@ CREATE TABLE movimientos_bancarios (
     cuenta_destino VARCHAR2(20)
 );
 
--- Insertamos 5 millón de registros
+-- Insertamos 50 millones de registros
 BEGIN
-    FOR i IN 1..5000000 LOOP
+    FOR i IN 1..50000000 LOOP
         INSERT INTO movimientos_bancarios (id, numero_transaccion, tipo_transaccion, monto, fecha_transaccion, cuenta_origen, cuenta_destino)
         VALUES (
             i, 
